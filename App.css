@@ -1,0 +1,136 @@
+/* App.css */
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+h1 {
+	color: green;
+	font-size: 40px;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.project-container {
+	max-width: 85%;
+	height: auto;
+	margin: 0px auto;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: 3px solid green;
+	box-shadow: 5px 5px 5px 0px rgb(6, 161, 19);
+
+}
+
+.project-list {
+	display: grid;
+	justify-content: space-between;
+	align-items: center;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 0px 10px;
+	height: fit-content;
+}
+
+.project-container h1 {
+	border: 2px solid red;
+	color: rgb(39, 10, 105);
+	margin: 10px 20px;
+	border-radius: 10px;
+	background-color: rgb(228, 236, 182);
+
+}
+
+.project {
+	height: 90%;
+	margin: 5px 15px;
+	padding: 15px;
+	border: 2px solid rgb(0, 26, 255);
+	box-shadow: 0px 0px 5px 2px blue;
+	border-radius: 8px;
+	background-color: #f8f8f8;
+}
+
+.project:hover {
+	border: 2px solid rgb(196, 8, 96);
+	transform: scale(1.05);
+	box-shadow: 0px 0px 5px 2px rgb(255, 0, 234);
+}
+
+.project-number {
+	font-size: 30px;
+	font-weight: 900;
+	color: rgb(236, 32, 5);
+	margin-bottom: 10px;
+}
+
+.project h2 {
+	color: rgb(160, 35, 154);
+	font-size: 25px;
+}
+
+.project p {
+	color: rgb(255, 8, 132);
+	font-size: 23px;
+	font-family: 800;
+}
+
+.form-sect {
+	margin: 0px;
+}
+
+input {
+	height: 25px;
+	width: 60%;
+	border: 2px solid;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 900;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+button {
+	border: 2px solid rgb(5, 57, 199);
+	border-radius: 5px;
+	height: 30px;
+	font-size: large;
+	padding: 3px 10px;
+	font-weight: 800;
+	background-color: rgba(10, 202, 202, 0.705);
+}
+
+button:hover {
+	background-color: rgb(4, 253, 241);
+	box-shadow: 3px 3px 2px 0px rgb(6, 156, 243);
+}
+
+.goal-reached h2 {
+	color: rgb(179, 42, 18);
+}
+
+.goal-reached p {
+	color: rgb(179, 42, 18);
+	font-size: 25px;
+	font-weight: 900;
+}
+
+/* ================== Media Query(Small Devices) ============== */
+
+@media screen and (max-width: 650px) {
+
+	.project-list {
+
+		grid-template-columns: repeat(1, 1fr);
+		height: fit-content;
+	}
+
+	input {
+		margin-bottom: 5px;
+	}
+
+}
