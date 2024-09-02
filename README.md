@@ -1,15 +1,22 @@
-CrowdFunding
------>node_modules
------>public 
+# CrowdFunding
+
+----->## node_modules
+----->## public 
+
    |------>index.html
------>src
+   
+----->## src
+
   ----->components
+  
     |---->DonationForm.js
     |---->Footer.jsx
     |---->Project.js
+    
 ----->App.js
 ----->Project.js
 ----->App.css
+
 package-lock.json
 package.json
     
